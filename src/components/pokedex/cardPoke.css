@@ -1,5 +1,5 @@
 .card-poke {
-    width: 100%;
+    /*width: 100%;
     max-width: 15em;
     border-radius: 0.8em;
     overflow: hidden;
@@ -7,7 +7,15 @@
     border-style: solid;
     position: relative; 
     transition: transform 200ms ease, 
-                box-shadow 200ms ease;   
+                box-shadow 200ms ease; */
+    width: 200px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    
 }
 
 .card-poke:hover {
@@ -304,4 +312,10 @@
 
 .letter-ice {
     color: #6FBEDF;
+}
+
+@media screen and (max-width: 600px) {
+  .card__poke {
+    width: 100%; 
+  }
 }
