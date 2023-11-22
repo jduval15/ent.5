@@ -1,13 +1,11 @@
 .card-poke {
-    /*width: 100%;
-    max-width: 15em;
-    border-radius: 0.8em;
-    overflow: hidden;
+    
+    max-width: 15em;    
     border-width: 10px;
     border-style: solid;
     position: relative; 
     transition: transform 200ms ease, 
-                box-shadow 200ms ease; */
+                box-shadow 200ms ease;
     width: 200px;
     margin-bottom: 20px;
     background-color: #fff;
