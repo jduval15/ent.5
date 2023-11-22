@@ -1,11 +1,18 @@
 .card-poke {
     width: 100%;
-    max-width: 300px;
-    border-radius: 13px;
+    max-width: 15em;
+    border-radius: 0.8em;
     overflow: hidden;
     border-width: 10px;
     border-style: solid;
-    
+    position: relative; 
+    transition: transform 200ms ease, 
+                box-shadow 200ms ease;   
+}
+
+.card-poke:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 1.5em #0008;
 }
 
 .card-poke__body {
